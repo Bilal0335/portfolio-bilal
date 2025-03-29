@@ -40,7 +40,7 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <h2 className={styles.sectionHeadText}>Introduction.</h2>
       </motion.div>
 
       <motion.p
@@ -48,28 +48,56 @@ const About = () => {
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
         I'm a passionate <strong>Frontend Developer</strong> with expertise in
-        <strong> HTML, CSS, JavaScript, TypeScript, React.js, Next.js, and SQL. </strong> 
+        <strong>
+          {" "}
+          HTML, CSS, JavaScript, TypeScript, React.js, Next.js, and SQL.{" "}
+        </strong>
         I specialize in building
-        <strong> scalable, high-performance, and user-centric web applications </strong>
+        <strong>
+          {" "}
+          scalable, high-performance, and user-centric web applications{" "}
+        </strong>
         that blend seamless functionality with modern design. My focus is on
-        <strong> clean architecture, optimized performance, and intuitive user experience. </strong>
-        <br /><br />
-
-        🚀 <strong>My Journey:</strong>  
-        I started my journey with a deep dive into <strong>TypeScript</strong> and <strong>JavaScript</strong>, followed by hands-on <strong>DSA challenges</strong> to strengthen my problem-solving skills. I have built <strong>e-commerce platforms, dynamic dashboards, and interactive web apps</strong>, focusing on <strong>efficiency and seamless UX</strong>.
-        <br /><br />
-
-        🌟 <strong>Projects & Experience:</strong>  
-        🔹 <strong>Full-Stack E-Commerce Store</strong> – Secure authentication, Stripe payments, and admin management.  
-        🔹 <strong>Admin Dashboard</strong> – Integrated Google Analytics, order tracking, and customer management.  
-        🔹 <strong>Dynamic Blog & Landing Pages</strong> – SEO-friendly, responsive, and optimized for performance.  
-        <br /><br />
-
-        🎯 <strong>Current Focus:</strong>  
-        I’m currently exploring <strong>full-stack development with Next.js</strong>, focusing on <strong>state management, UI/UX optimization, and performance improvements</strong>. Additionally, I’m diving into <strong>Agentic AI & Generative AI</strong> using <strong>Python</strong>.
-        <br /><br />
-
-        🔍 <strong>Open to collaborations!</strong> Let’s connect and build something amazing together. 🚀
+        <strong>
+          {" "}
+          clean architecture, optimized performance, and intuitive user
+          experience.{" "}
+        </strong>
+        <br />
+        <br />
+        🚀 <strong>My Journey:</strong> <br />I started my journey with a deep
+        dive into <strong>TypeScript</strong> and <strong>JavaScript</strong>,
+        followed by hands-on <strong>DSA challenges</strong> to strengthen my
+        problem-solving skills. I have built{" "}
+        <strong>
+          e-commerce platforms, dynamic dashboards, and interactive web apps
+        </strong>
+        , focusing on <strong>efficiency and seamless UX</strong>.
+        <br />
+        <br />
+        🌟 <strong>Projects & Experience:</strong>
+        <br />
+        🔹 <strong>Full-Stack E-Commerce Store</strong> – Secure authentication,
+        Stripe payments, and admin management. <br />
+        🔹 <strong>Admin Dashboard</strong> – Integrated Google Analytics, order
+        tracking, and customer management. <br />
+        🔹 <strong>Dynamic Blog & Landing Pages</strong> – SEO-friendly,
+        responsive, and optimized for performance.
+        <br />
+        <br />
+        🎯 <strong>Current Focus:</strong> <br />
+        I’m currently exploring{" "}
+        <strong>full-stack development with Next.js</strong>, focusing on{" "}
+        <strong>
+          state management, UI/UX optimization, and performance improvements
+        </strong>
+        . Additionally, I’m diving into{" "}
+        <strong>Agentic AI & Generative AI</strong> using{" "}
+        <strong>Python</strong>.
+        <br />
+        <br />
+        🔍 <strong>Open to collaborations!</strong> Let’s connect and build
+        something amazing together. 🚀
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
