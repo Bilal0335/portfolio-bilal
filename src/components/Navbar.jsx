@@ -44,10 +44,7 @@ const Navbar = () => {
           }}
         >
           <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
-          <p className="text-white text-[18px] font-bold cursor-pointer flex items-center gap-1">
-            <span className="sm:inline hidden">Bilal Hussain</span>
-            <span className="inline sm:hidden">&lt;Bilal/&gt;</span>
-          </p>
+          
         </Link>
 
         <ul className="list-none hidden sm:flex flex-row gap-10">
